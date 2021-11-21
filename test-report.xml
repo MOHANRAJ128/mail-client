@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite id="0" name="/mnt/c/Users/rajm2/Desktop/ReactjsMailClient/mail-client/src/test/draft.spec.js" errors="0" package="/mnt/c/Users/rajm2/Desktop/ReactjsMailClient/mail-client/src/test/draft.spec.js" hostname="localhost" tests="4" failures="0" time="7.283" timestamp="2020-12-09T14:45:26">
+    <properties>
+    </properties>
+    <testcase classname="draft reducers" name="READ_DRAFT_MAIL" time="0">
+    </testcase>
+    <testcase classname="draft reducers" name="STORE_DRAFT_MAIL" time="0">
+    </testcase>
+    <testcase classname="draft reducers" name="DELETE_DRAFT_MAIL" time="0">
+    </testcase>
+    <testcase classname="draft reducers" name="RESTORE_DRAFT_MAIL" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="1" name="/mnt/c/Users/rajm2/Desktop/ReactjsMailClient/mail-client/src/test/inboxMail.spec.js" errors="0" package="/mnt/c/Users/rajm2/Desktop/ReactjsMailClient/mail-client/src/test/inboxMail.spec.js" hostname="localhost" tests="2" failures="0" time="0.747" timestamp="2020-12-09T14:45:33">
+    <properties>
+    </properties>
+    <testcase classname="sent reducers" name="returns proper initial state" time="0">
+    </testcase>
+    <testcase classname="sent reducers" name="RECEIVE_INBOX_DATA" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="2" name="/mnt/c/Users/rajm2/Desktop/ReactjsMailClient/mail-client/src/test/data.spec.js" errors="0" package="/mnt/c/Users/rajm2/Desktop/ReactjsMailClient/mail-client/src/test/data.spec.js" hostname="localhost" tests="3" failures="0" time="0.706" timestamp="2020-12-09T14:45:34">
+    <properties>
+    </properties>
+    <testcase classname="data reducers" name="returns proper initial state" time="0">
+    </testcase>
+    <testcase classname="data reducers" name="RECEIVE_API_DATA" time="0">
+    </testcase>
+    <testcase classname="data reducers" name="DELETE_INBOX_MAIL" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="3" name="/mnt/c/Users/rajm2/Desktop/ReactjsMailClient/mail-client/src/test/sent.spec.js" errors="0" package="/mnt/c/Users/rajm2/Desktop/ReactjsMailClient/mail-client/src/test/sent.spec.js" hostname="localhost" tests="2" failures="0" time="0.66" timestamp="2020-12-09T14:45:34">
+    <properties>
+    </properties>
+    <testcase classname="sent reducers" name="STORE_SENT_MAIL" time="0">
+    </testcase>
+    <testcase classname="sent reducers" name="DELETE_SENT_MAIL" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="4" name="/mnt/c/Users/rajm2/Desktop/ReactjsMailClient/mail-client/src/test/trash.spec.js" errors="0" package="/mnt/c/Users/rajm2/Desktop/ReactjsMailClient/mail-client/src/test/trash.spec.js" hostname="localhost" tests="4" failures="0" time="10.929" timestamp="2020-12-09T14:45:28">
+    <properties>
+    </properties>
+    <testcase classname="sent reducers" name="returns proper initial state" time="0">
+    </testcase>
+    <testcase classname="sent reducers" name="READ_TRASH_MAIL" time="0">
+    </testcase>
+    <testcase classname="sent reducers" name="STORE_TRASH_MAIL" time="0">
+    </testcase>
+    <testcase classname="sent reducers" name="RESTORE_TRASH_MAIL" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="5" name="/mnt/c/Users/rajm2/Desktop/ReactjsMailClient/mail-client/src/test/compose.spec.js" errors="0" package="/mnt/c/Users/rajm2/Desktop/ReactjsMailClient/mail-client/src/test/compose.spec.js" hostname="localhost" tests="2" failures="0" time="11.137" timestamp="2020-12-09T14:45:38">
+    <properties>
+    </properties>
+    <testcase classname="compose reducers" name="returns proper initial state" time="0">
+    </testcase>
+    <testcase classname="compose reducers" name="STORE_COMPOSE_MAIL" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="6" name="/mnt/c/Users/rajm2/Desktop/ReactjsMailClient/mail-client/src/test/MailList.spec.js" errors="0" package="/mnt/c/Users/rajm2/Desktop/ReactjsMailClient/mail-client/src/test/MailList.spec.js" hostname="localhost" tests="14" failures="0" time="28.459" timestamp="2020-12-09T14:45:26">
+    <properties>
+    </properties>
+    <testcase classname="Testing folder component with store store" name="+++ render the connected(SMART) component" time="0">
+    </testcase>
+    <testcase classname="Testing folder component with store store" name="+++ check action on dispatching " time="0">
+    </testcase>
+    <testcase classname="without store" name="testing the rendering structure" time="0">
+    </testcase>
+    <testcase classname="without store" name="testing delete button" time="0">
+    </testcase>
+    <testcase classname="without store" name="testing pagination" time="0">
+    </testcase>
+    <testcase classname="without store" name="testing search" time="0">
+    </testcase>
+    <testcase classname="without store" name="testing sort" time="0">
+    </testcase>
+    <testcase classname="without store" name="simulate delete button click" time="0">
+    </testcase>
+    <testcase classname="without store" name="simulate search text change" time="0">
+    </testcase>
+    <testcase classname="without store" name="simulate dropdown change" time="0">
+    </testcase>
+    <testcase classname="without store" name="simulate next button" time="0">
+    </testcase>
+    <testcase classname="without store" name="simulate prev button" time="0">
+    </testcase>
+    <testcase classname="without store" name="active mail state check " time="0">
+    </testcase>
+    <testcase classname="without store" name="time convertion check " time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="7" name="/mnt/c/Users/rajm2/Desktop/ReactjsMailClient/mail-client/src/test/ComposeMail.spec.js" errors="0" package="/mnt/c/Users/rajm2/Desktop/ReactjsMailClient/mail-client/src/test/ComposeMail.spec.js" hostname="localhost" tests="9" failures="1" time="28.756" timestamp="2020-12-09T14:45:28">
+    <properties>
+    </properties>
+    <testcase classname="Testing folder component with store store" name="+++ check Prop matches with initialState" time="0">
+    </testcase>
+    <testcase classname="Testing folder component with store store" name="+++ check action on dispatching " time="0">
+    </testcase>
+    <testcase classname="ComposeMail Component" name="Number of input boxes" time="0">
+    </testcase>
+    <testcase classname="ComposeMail Component" name="Checking Text area" time="0">
+    </testcase>
+    <testcase classname="ComposeMail Component" name="click compose button" time="0">
+      <failure message="Error: [2mexpect([22m[31mjest.fn()[39m[2m).toHaveBeenCalledTimes([22m[32m1[39m[2m)[22m
+
+Expected mock function to have been called [32mone time[39m, but it was called [31mzero times[39m.
+    at Object.it (/mnt/c/Users/rajm2/Desktop/ReactjsMailClient/mail-client/src/test/ComposeMail.spec.js:82:21)
+    at Object.asyncFn (/mnt/c/Users/rajm2/Desktop/ReactjsMailClient/mail-client/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/mnt/c/Users/rajm2/Desktop/ReactjsMailClient/mail-client/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/mnt/c/Users/rajm2/Desktop/ReactjsMailClient/mail-client/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/mnt/c/Users/rajm2/Desktop/ReactjsMailClient/mail-client/node_modules/p-map/index.js:46:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="simulate click event on onSubmit" name="submit click event" time="0">
+    </testcase>
+    <testcase classname="simulate click event on onSubmit" name="submit check error message" time="0">
+    </testcase>
+    <testcase classname="simulate click event on onSubmit" name="submit check valid state" time="0">
+    </testcase>
+    <testcase classname="simulate click event on onSubmit" name="email validation" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="8" name="/mnt/c/Users/rajm2/Desktop/ReactjsMailClient/mail-client/src/test/Folders.spec.js" errors="0" package="/mnt/c/Users/rajm2/Desktop/ReactjsMailClient/mail-client/src/test/Folders.spec.js" hostname="localhost" tests="3" failures="1" time="31.262" timestamp="2020-12-09T14:45:27">
+    <properties>
+    </properties>
+    <testcase classname="Folders Component" name="Number of NavLink" time="0">
+    </testcase>
+    <testcase classname="Folders Component" name="click compose button" time="0">
+      <failure message="Error: [2mexpect([22m[31mjest.fn()[39m[2m).toHaveBeenCalledTimes([22m[32m1[39m[2m)[22m
+
+Expected mock function to have been called [32mone time[39m, but it was called [31mzero times[39m.
+    at Object.it (/mnt/c/Users/rajm2/Desktop/ReactjsMailClient/mail-client/src/test/Folders.spec.js:26:17)
+    at Object.asyncFn (/mnt/c/Users/rajm2/Desktop/ReactjsMailClient/mail-client/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at resolve (/mnt/c/Users/rajm2/Desktop/ReactjsMailClient/mail-client/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/mnt/c/Users/rajm2/Desktop/ReactjsMailClient/mail-client/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/mnt/c/Users/rajm2/Desktop/ReactjsMailClient/mail-client/node_modules/p-map/index.js:46:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="Testing folder component with store store" name="+++ render the connected(SMART) component" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="9" name="/mnt/c/Users/rajm2/Desktop/ReactjsMailClient/mail-client/src/test/Mail.spec.js" errors="0" package="/mnt/c/Users/rajm2/Desktop/ReactjsMailClient/mail-client/src/test/Mail.spec.js" hostname="localhost" tests="7" failures="0" time="30.277" timestamp="2020-12-09T14:45:29">
+    <properties>
+    </properties>
+    <testcase classname="Testing mail component with store store" name="+++ render the connected(SMART) component" time="0">
+    </testcase>
+    <testcase classname="Testing mail component with store store" name="+++ check action on dispatching " time="0">
+    </testcase>
+    <testcase classname="without store" name="submit click event" time="0">
+    </testcase>
+    <testcase classname="without store" name="date convertion" time="0">
+    </testcase>
+    <testcase classname="without store" name="check enable edit button" time="0">
+    </testcase>
+    <testcase classname="without store" name="check empty mails" time="0">
+    </testcase>
+    <testcase classname="without store" name="check mail strucure" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+</testsuites>
